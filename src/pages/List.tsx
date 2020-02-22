@@ -13,7 +13,6 @@ const ListPage: React.FC = () => {
           <IonTitle>List</IonTitle>
         </IonToolbar>
       </IonHeader>
-
       <IonContent>
         <ListItems />
       </IonContent>

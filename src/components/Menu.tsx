@@ -37,7 +37,16 @@ const Menu: React.FunctionComponent<MenuProps> = ({ appPages }) => (
             </IonMenuToggle>
           );
         })}
+        
       </IonList>
+      <div className="info">
+        <div className="logo">
+          <a href="home">
+            <img src="/assets/menu-icon.png" alt="Logo"/>
+          </a>
+          <p className="party-name">bharatiya janata party</p> 
+        </div>
+      </div>
     </IonContent>
   </IonMenu>
 );
